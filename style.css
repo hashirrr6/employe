@@ -1,0 +1,105 @@
+.nav-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   background-color: white;
+    color: grey;
+    
+}
+.search{
+    width: 100%;
+    margin-left: 35px;
+}
+.search input{
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    
+}
+.pro{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+.pro img{
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.pro button{
+    font-family: Courier, monospace;
+    /* background-color: blueviolet; */
+    border: 0px;
+    border-radius: 25px;
+    
+}
+.employdetails{
+    width: 100%;
+    /* background-image: url("new/bggg.jpg"); */
+    height: 1200px;
+    background-size: cover;
+}
+.employ-main{
+    background-color:rgb(197, 170, 170,.5);
+    color:rgb(45, 39, 83);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.employe-left{
+    width: 50%;
+display: flex;
+justify-content: end;
+}
+.employ-right{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  gap: 15px;
+}
+.employ-right button{
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.table-main{
+    width: 100%;
+    /* background-color: black; */
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table-card{
+    width: 90%;
+    /* filter: invert(100%); */
+    color:rgb(45, 39, 83);
+margin-top: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* background-color: burlywood; */
+}
+.edit{
+   
+    width: 10px;
+}
+.delete{
+    
+    width: 10px;
+}
+table{
+    /* background-color: blue; */
+    width: 100%;
+}
+.profo{
+    height:35px ;
+    
+    border-radius: 100%;
+}
