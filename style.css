@@ -6,6 +6,11 @@
     color: grey;
     
 }
+.nav-top img{
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
 .search{
     width: 100%;
     margin-left: 35px;
@@ -102,4 +107,58 @@ table{
     height:35px ;
     
     border-radius: 100%;
+}
+.reg-top{
+    color:rgb(45, 39, 83);
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+    
+    
+}
+.reg-card{
+    
+    display: flex;
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+    justify-content: center;
+    margin-top: 4px;
+    /* background-image: url("new/bg1.jpg"); */
+    background-size: cover;
+}
+.form{
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    width: 40%;
+    color:rgb(45, 39, 83);
+    position: relative;
+   
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.form-main{
+    margin: 20px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color:black ; */
+    
+}
+.btn button{
+    background-color:rgba(128, 103, 103, 0.5);
+    color:rgb(45, 39, 83);
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}a{
+    text-decoration: none;
+    color:rgb(45, 39, 83);
 }
